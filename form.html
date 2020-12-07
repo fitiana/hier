@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Bootstrap Stater</title>
+
+    <!-- Icons for this template -->
+    <link href="assets/fonts/font-awesome/css/all.min.css" rel="stylesheet" type="text/css">
+    <!-- Stylesheet -->
+    <!-- build:css -->
+    <link href="assets/css/app.css" rel="stylesheet">
+    <!-- endbuild -->
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline mt-2 mt-md-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit"><i class="fas fa-search" aria-hidden="true"></i> Search </button>
+            </form>
+        </div>
+    </nav>
+
+    <main role="main" class="container">
+        <div class="login-wrapper m-auto">
+            <form class="">
+                <div class="form-section">
+                    <div class="login-logo text-center p-3 mx-auto mb-4"><img alt="..." class="rounded-logo" src="/_next/static/images/logo-e7355f3df115c5ba2e89d13d48f918ae.png"></div>
+                    <h2 class="login-title text-center mb-4">Créer un compte restaurant</h2>
+                    <div class="multisteps-form breadcrumbs text-left mb-4">
+                        <ul class="nav_breadcrumb d-flex p-0 mb-2">
+                            <li class="breadcrumb-item active">Restaurant</li>
+                            <li class="breadcrumb-item ">Administrateur</li>
+                            <li class="breadcrumb-item ">Identifiant</li>
+                        </ul>
+                    </div>
+                    <div class="form-group"><label for="restauName" class="label mb-1">Nom du restaurant</label><input name="restauName" id="restauName" placeholder="Nom du restaurant" type="text" class="form-control" value=""></div>
+                    <div class="form-group"><label for="address" class="label mb-1">Adresse</label><input name="address" id="address" placeholder="Adresse" type="text" class="form-control" value=""></div>
+                    <div class="form-group"><label for="additionalAddress" class="label mb-1">Complément d’adresse</label><input name="additionalAddress" placeholder="Complément d’adresse" type="text" class="form-control" value=""></div>
+                    <div class="form-group"><label for="country" class="label required mb-1">Pays</label><select name="country" id="country" class="form-control form-control">
+                            <option value="14">France</option>
+                            <option value="15">Suisse</option>
+                        </select></div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group"><label for="postalCode" class="label required mb-1">Code postal</label><input name="postalCode" placeholder="Code postal" type="text" class="form-control" value=""></div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group"><label for="ville" class="label required mb-1">Ville</label><select name="city" id="city" class="form-control form-control"></select></div>
+                        </div>
+                    </div>
+                    <div class="form-group"><label for="numberOfCovers" class="label mb-1">Nombre de couverts</label><input placeholder="Nombre de couverts" min="15" step="1" name="numberOfCovers" id="numberOfCovers" type="number" class="form-control" aria-invalid="false" value="">
+                        <div class="invalid-feedback">Minimum : 15.</div>
+                    </div>
+                    <div class="mb-4"><button disabled="" class="px-4 btn btn-login-primary btn-lg disabled">Suivant</button></div>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <!-- Bootstrap core JavaScript
+================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/vendor/jquery.slim.min.js"></script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <!-- build:js -->
+    <script src="assets/js/app.js"></script>
+    <!-- endbuild -->
+</body>
+
+</html>
